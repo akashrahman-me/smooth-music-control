@@ -36,9 +36,9 @@ class PlotLib:
                 # plt.draw()
                 # plt.pause(1)
                 
-            working_data = open('working_data.json', 'w')
-            working_data.write(json.dumps(self.plot))
-            working_data.close()
+            # working_data = open('working_data.json', 'w')
+            # working_data.write(json.dumps(self.plot))
+            # working_data.close()
             
             time.sleep(1)
       
