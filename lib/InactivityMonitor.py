@@ -11,7 +11,7 @@ VOICE_NOISE = 0.0175
 
 class InactivityMonitor(Volume, PlotLib):
     def __init__(self):
-        self.timeout = 2
+        self.timeout = 1
         self.timer = None
         self.activity_listener = ActivityDetection(self.on_activity)
         self.inactive = False
